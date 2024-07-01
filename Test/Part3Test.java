@@ -3,10 +3,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class Part3Test {
-String developer[] ={"Mike Smith","Edward Harrison","Samantha Paulson","Glenda Oberholzer"};
-String taskName[] = {"Create Login","Create Add Features","Create Reports","Add Arrays"};
-int taskDuration[] = {5,8,2,11};
-String taskStatus[] ={"To Do","Doing","Done","To Do"};
     @Test
     public void testDeveloper() {
         String expected = "Mike Smith"+"Edward Harrison"+"Samantha Paulson"+"Glenda Oberholzer";
